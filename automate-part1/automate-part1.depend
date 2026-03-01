@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1772191297 source:c:\users\douae\onedrive\documents\th.langages&compilation\automate-part1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
