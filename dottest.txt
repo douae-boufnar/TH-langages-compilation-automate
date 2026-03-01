@@ -1,0 +1,12 @@
+digraph Automate {
+    // Indiquer l'état final (double cercle)
+    node [shape=doublecircle]; 1;
+    // Indiquer les états normaux
+    node [shape=circle];
+    // La flèche de départ
+    start -> 0;
+    // Les transitions
+    0 -> 1 [label="a"];
+    1 -> 1 [label="a"];
+    1 -> 1 [label="b"];
+}

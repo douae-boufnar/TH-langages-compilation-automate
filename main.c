@@ -44,7 +44,7 @@ void initialiser(Systeme *S) {
 // declaration d'une fonction pour charger l'automate
 int charger_systeme(char *nom_fichier, Systeme *S) {
 
-    FILE *f = fopen("C:\\Users\\pc\\Documents\\fichier.dot", "r");
+    FILE *f = fopen("C:\\Users\\douae\\OneDrive\\Documents\\theorieLangages\\dottest.txt", "r");
     //ttester si on a un echec dans l'ouverture du fichier
     if (f == NULL) {
         printf("Erreur : impossible d'ouvrir le fichier.\n");
@@ -183,7 +183,7 @@ int main() {
         switch (choix) {
 
             case 1:
-                if (charger_systeme("C:\\Users\\pc\\Documents\\fichier.dot", &mon_systeme)) {
+                if (charger_systeme("C:\\Users\\douae\\OneDrive\\Documents\\theorieLangages\\dottest.txt", &mon_systeme)) {
                     printf(">> Chargement reussi !\n\n");
                     charge = 1;
                 }
